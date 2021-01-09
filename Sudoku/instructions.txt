@@ -1,0 +1,20 @@
+INTRODUCTION:
+
+This is a copy of the game sudoku written in Python 3.9. The game is playable by itself, and also uses a backtracking algorithm to solve
+grid states for you as well. There are multiple boards located in the sudokuGrids file. More can be added or subtracted as wanted.
+
+CONTROLS:
+
+To play, simply click a square and type a number from 1-9. A selected square will be highlighted red.
+
+The arrow keys can be used to move which selected cell you have.
+
+The 'G' key changes the grid currently seen. The 'S' key solves the grid using the backtracking algoritm. The 'C' key checks if the current
+grid is solved or not. The 'E' key empties the hovered cell.
+
+NOTES:
+
+Invalid values cannot be typed, as the backtracking algorithm cannot solve the board given wrong values.
+
+The solve key is intented for solving a fresh board, and will not solve a worked on board, unless the work is correct! Otherwise the
+backtracking algorithm will simply say the board is unsolvable.
